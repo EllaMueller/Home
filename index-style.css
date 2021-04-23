@@ -1,0 +1,140 @@
+html{
+  cursor: url(cursor1.png), auto;
+  scroll-behavior: smooth;
+}
+body{
+  background-size: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  background-color: #0E020A;
+}
+a{
+  color: #BDBF09;
+}
+
+
+h1{
+  text-decoration:underline;
+  color:#ffffff;
+  text-align: center;
+  font-size:20px;
+  }
+h2{
+  color: #ffffff;
+  font-size: 15px;
+}
+h3{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 10;
+  text-align: center;
+}
+
+
+p{
+  font-size: 16px;
+  color: #F5EFED;
+  padding: 14px 16px; 
+}
+
+
+::selection {
+  color: #ffffff;
+  background: #ffffff;
+}
+
+
+.navbar {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  top:0;
+}
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: #FBAB60;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  background-color: #2292A4;
+  font-weight: bolder;
+}
+.dropdown {
+  position: fixed;
+  width: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #2292A4;
+  top: 0;
+  left: 0;
+}
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  color: #FBAB60;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: bolder;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: #FBAB60;
+  font-weight: bolder;
+}
+.dropdown-content {
+  display: none;
+  background-color: #2292A4;
+  min-width: 160px;
+  position: absolute; 
+}
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #FBAB60;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+
+.congrats{
+  color: #ffffff;
+  font-size: 20px;
+}
+img{
+  width: 30%;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+  transform: rotateX('180');
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track{
+  background:#ffffff;
+}
+::-webkit-scrollbar-track:hover{
+  background:#f3f3f3;
+}
+::-webkit-scrollbar-thumb{
+  background: #FBAB60;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(243, 133, 29);
+  border-radius: 0px;
+}
+::-webkit-scrollbar-button{
+  background-color: #ffffff;
+  height: 0px;
+}
+
