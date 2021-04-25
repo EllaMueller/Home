@@ -51,18 +51,18 @@ p{
 .navbar a {
   float: left;
   font-size: 14px;
-  color: #FBAB60;
+  color: #6D9C48;
   text-align: center;
   padding: 14px 16px;
   text-decoration: underline;
-  background-color: #262838;
+  background-color: #133E3E;
   font-weight: bolder;
 }
 .dropdown {
   position: fixed;
   width: 100%;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #262838;
+  background-color: #133E3E;
   top: 0;
   left: 0;
 }
@@ -71,20 +71,18 @@ p{
   border: none;
   outline: none;
   text-decoration: underline;
-  color: #FBAB60;
+  color: #6D9C48;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   font-weight: bolder;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #ffffff;
-  color: #FBAB60;
-  font-weight: bolder;
+  box-shadow: inset 0 -5px 0 0 #22605B;
 }
 .dropdown-content {
   display: none;
-  background-color: #262838;
+  background-color: #133E3E;
   min-width: 160px;
   position: absolute; 
 }
@@ -96,12 +94,10 @@ p{
   text-align: left;
 }
 .dropdown-content a:hover {
-  background-color: #FBAB60;
-  color: #ffffff;
-  font-weight: bolder;
+  box-shadow: inset 0 -5px 0 0 #22605B;
 }
 .dropdown:hover{
-  box-shadow: inset 0 -5px 0 0 #323447;
+  box-shadow: inset 0 -5px 0 0 #22605B;
 }
 .dropdown:hover .dropdown-content {
   display:block;
@@ -130,12 +126,12 @@ img{
   background:#191a22;
 }
 ::-webkit-scrollbar-thumb{
-  background: #FBAB60;
+  background: #6D9C48;
   border-radius: 0px;
   border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: rgb(243, 133, 29);
+  background: #458B68;
   border-radius: 20px;
 }
 ::-webkit-scrollbar-button{
