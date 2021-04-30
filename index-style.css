@@ -3,12 +3,12 @@ html{
 }
 body{
   background-size: 100%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   font-size: 10px;
-  background: (#191a22, #133E3E);
+  background:#202329;
 }
 a{
-  color: #A7C2A3;
+  color: #00ff9d;
 }
 
 
@@ -21,6 +21,7 @@ h1{
 h2{
   color: #ffffff;
   font-size: 15px;
+  letter-spacing: .5em;
 }
 h3{
   color: #ffffff;
@@ -38,30 +39,30 @@ p{
 
 
 ::selection {
-  background-color: #A7C2A3;
+  background-color: #9bafb8;
   color: #F5EFED;
 }
 
 
 .navbar {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   top:0;
 }
 .navbar a {
   float: left;
   font-size: 14px;
-  color: #76A786;
+  color: #00ff9d;
   text-align: center;
   padding: 14px 16px;
   text-decoration: underline;
-  background-color: #133E3E;
+  background-color: #2d353a;
   font-weight: bolder;
 }
 .dropdown {
   position: fixed;
   width: 100%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #133E3E;
+  font-family:'Courier New', Courier, monospace;
+  background-color: #2e343b;
   top: 0;
   left: 0;
 }
@@ -70,20 +71,22 @@ p{
   border: none;
   outline: none;
   text-decoration: underline;
-  color: #76A786;
+  color: #9bafb8;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   font-weight: bolder;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  box-shadow: inset 0 -5px 0 0 #54957F;
+  text-shadow: #83909c;
 }
 .dropdown-content {
   display: none;
-  background-color: #133E3E;
+  background-color: #2f363d;
   min-width: 160px;
   position: absolute; 
+  overflow-y: auto;
+  max-height: 300px;
 }
 .dropdown-content a {
   float: none;
@@ -93,10 +96,10 @@ p{
   text-align: left;
 }
 .dropdown-content a:hover {
-  box-shadow: inset 0 -5px 0 0 #54957F;
+  text-shadow: #83909c 5px 5px;
 }
 .dropdown:hover{
-  box-shadow: inset 0 -5px 0 0 #54957F;
+  text-shadow: #83909c;
 }
 .dropdown:hover .dropdown-content {
   display:block;
@@ -118,19 +121,19 @@ img{
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track{
-  background: #ffffff00;
+  background: rgba(0,0,0,0);
   border-radius: 20px;
 }
 ::-webkit-scrollbar-track:hover{
-  background:#191a2200;
+  background: rgba(0,0,0,0);
 }
 ::-webkit-scrollbar-thumb{
-  background: #95cca7;
+  background: #00ff9dda;
   border-radius: 0px;
   border-radius: 20px;
 }
 ::-webkit-scrollbar-button{
-  background-color: #ffffff;
+  background-color: #ffffff00;
   height: 0px;
 }
 
