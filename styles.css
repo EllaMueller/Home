@@ -166,3 +166,7 @@ div.desc {
   left: 0px;
   position:absolute;
 }
+img{
+  width: 20%;
+  height: auto;
+}
